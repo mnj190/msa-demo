@@ -32,3 +32,8 @@ graph TD
   OrderService -->|Event| Kafka --> PaymentService
   UserService --> MySQL
   PaymentService --> Redis
+
+## 📖 문서
+Architecture
+진행 기록
+팀 역할 분담
