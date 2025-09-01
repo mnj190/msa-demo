@@ -1,19 +1,10 @@
 # 팀 역할 분담
 
 ## Week 1 - 사용 기술 선정
-- 인증/인가: 조정민
-- CI/CD: 김태선
-- 이벤트 처리: 박가현
-- DB, 캐싱: 유영재
-- 모니터링: 김상우
-
-## Week 2 ~ 3 (이벤트 스토밍 이후)
-- User Service: A
-- Order Service: B
-- Payment Service: C
-- Notification Service: D
-- Infra/Observability: E
-
-## Week 4
-- 각자 맡은 서비스 기반으로 PoC 구현
-- 공통: 아키텍처 정리 및 문서화
+| 주제 | 기술 예시 | 담당자 | 비고 |
+|------|-----------|--------|------|
+| 인증/인가, 웹서버, WAS | JWT, OAuth 2.0, Spring Security, Nginx, SpringBoot | 조정민 | |
+| CI/CD | Kubernetes, Jenkins, Docker | 김태선 | |
+| 이벤트 처리 | Apache Kafka, RabbitMQ, Redis Pub/Sub | 박가현 | |
+| DB, 캐싱 | MySQL, Redis, MongoDB, PostgreSQL | 유영재 | |
+| 모니터링, 로그 수집 | Prometheus, Grafana, ELK Stack | 김상우 | |
